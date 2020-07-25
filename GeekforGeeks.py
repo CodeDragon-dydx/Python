@@ -37,6 +37,71 @@ def checkDivisibility(a,b):
 checkDivisibility(4,2)
 
 
+# In[7]:
+
+x = 10;
+print(type(x))
+
+x =100000000000000000000000000000000
+print(type(x))
+
+
+# In[10]:
+
+def f():
+    print(s)
+
+s = "I love Geekforgeeks"
+f()
+
+
+# In[12]:
+
+def f():
+    s = "me too.
+    print(s)
+    
+s = "I love Geekforgeeks"
+f()
+print(s)
+
+
+# In[14]:
+
+def f():
+    global s
+    print(s)
+    s = "Me too."
+    print(s)
+
+s ="I love Geekforgeeks."
+f()
+print(s)
+
+
+# In[15]:
+
+def f():
+    print("inside f:",a)
+def g():
+    a= 2
+    print("inside g:",a)
+def h():
+    global a
+    a = 3
+    print("inside h:",a)
+    
+#global scope
+
+print('global:', a)
+f()
+print('global:', a)
+g()
+print('global:',a)
+h()
+print('global:',a)
+
+
 # In[ ]:
 
 
