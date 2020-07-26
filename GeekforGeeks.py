@@ -102,6 +102,36 @@ h()
 print('global:',a)
 
 
+# In[16]:
+
+def fun(a,b,c,d):
+    print(a,b,c,d)
+    
+my_list = [1,2,3,4]
+
+fun(*my_list)
+
+
+# In[17]:
+
+range(3,6)
+
+args = [3,6]
+range(*args)
+
+
+# In[18]:
+
+def mySum(*args):
+    sum = 0
+    for i in range(0, len(args)):
+        sum += args[i]
+    return sum
+
+print(mySum(1,2,3,4,5))
+print(mySum(10,20))
+
+
 # In[ ]:
 
 
