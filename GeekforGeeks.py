@@ -132,6 +132,42 @@ print(mySum(1,2,3,4,5))
 print(mySum(10,20))
 
 
+# In[2]:
+
+def fun1(a,b,c):
+    print(a,b,c)
+    
+def fun2(*args):
+    args = list(args)
+    
+    args[0] = "Geeksforgeeks"
+    args[1] = "awesome"
+    
+    fun1(*args)
+    
+fun2('Hello', 'beautiful', 'world!')
+
+
+# In[3]:
+
+def fun1(a,b,c):
+    print(a,b,c)
+    
+d = {'a':2, 'b':4, 'c':10}
+fun1(**d)
+
+
+# In[4]:
+
+def fun(**kwargs):
+    print(type(kwargs))
+    
+    for key in kwargs:
+        print("%s = %s" %(key, kwargs[key]))
+        
+fun(name = "geeks", ID = "101", language = "Python")
+
+
 # In[ ]:
 
 
