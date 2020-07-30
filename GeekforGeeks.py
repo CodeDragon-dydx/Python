@@ -182,6 +182,91 @@ print("After converting to float:", end = "")
 print(e)
 
 
+# In[9]:
+
+s = '4'
+
+c = ord(s)
+
+print("After converting charater to integer:",end= " ")
+print(c)
+
+c = hex(56)
+print("After convering 56 to hexadecimal:", end = " ")
+print(c)
+
+c = oct(56)
+print("After converting 56 to octal string:", end = " ")
+print(c)
+
+
+# In[10]:
+
+s = 'geeks'
+
+c = tuple(s)
+
+print("After converting string to tuple:", end = " ")
+
+print(c)
+
+
+# In[11]:
+
+c = set(s)
+
+print("After converting string to set:", end = " ")
+
+print(c)
+
+
+# In[12]:
+
+c = list(s)
+
+print("After converting list to set:", end = " ")
+
+print(c)
+
+
+# In[13]:
+
+tup = (('a',1),('f',2),('g',3))
+
+c = complex(1,2)
+
+print("After converting integer to complex number:", end = " ")
+print(c)
+
+
+# In[14]:
+
+a = 1
+b = 2
+
+c = str(a)
+
+print("After converting integer to string:", end = " ")
+print(c)
+
+
+# In[15]:
+
+c = dict(tup)
+
+print("After converting tuple to dictionary:", end = " ")
+print(c)
+
+
+# In[16]:
+
+a = chr(76)
+b = chr(77)
+
+print(a)
+print(b)
+
+
 # In[ ]:
 
 
