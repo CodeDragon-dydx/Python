@@ -267,6 +267,33 @@ print(a)
 print(b)
 
 
+# In[1]:
+
+a = 'GeeksforGeeks'
+c = b'GeeksforGeeks'
+d = a.encode('ASCII')
+if(d==c):
+    print("encoding successful")
+else:
+    print("encoding unsuccessful")
+
+
+# In[2]:
+
+a = 'GeeksforGeeks'
+c = b'GeeksforGeeks'
+d = c.decode('ASCII')
+if(d==a):
+    print("Decoding successful")
+else:
+    print("Decoding unsuccessful")
+
+
+# In[3]:
+
+print((1,2))
+
+
 # In[ ]:
 
 
