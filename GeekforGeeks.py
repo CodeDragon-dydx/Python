@@ -294,6 +294,14 @@ else:
 print((1,2))
 
 
+# In[4]:
+
+x = 5
+y = 10
+x,y =y,x
+print("After swapping x and y values are",x,y)
+
+
 # In[ ]:
 
 
