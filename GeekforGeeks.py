@@ -302,6 +302,42 @@ x,y =y,x
 print("After swapping x and y values are",x,y)
 
 
+# In[6]:
+
+a, b = 10, 20
+
+min = a if a < b else b
+
+print(min)
+
+
+# In[8]:
+
+a, b = 10, 20
+
+print((b,a)[a<b])
+
+print({True:a, False:b}[a<b])
+
+print((lambda:b, lambda:a)[a<b]())
+
+
+# In[9]:
+
+a, b = 10, 20
+
+print("Both a and b are equal" if a == b else "a is greater than b" if a>b else "b is greater than a")
+
+
+# In[10]:
+
+a, b = 10, 20
+
+min = a < b and a or b
+
+print(min)
+
+
 # In[ ]:
 
 
