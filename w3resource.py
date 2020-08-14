@@ -36,6 +36,15 @@ r = float(input("Input the radius of the circle:"))
 print("The area of the circle with radius"+str(r)+" is: "+str(pi*r**2))
 
 
+# In[2]:
+
+fname = input("Enter your first name: ")
+
+lname = input("Enter your last name: ")
+
+print("Hello"+lname+" "+fname)
+
+
 # In[ ]:
 
 
