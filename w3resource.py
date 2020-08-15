@@ -45,6 +45,19 @@ lname = input("Enter your last name: ")
 print("Hello"+lname+" "+fname)
 
 
+# In[1]:
+
+values = input("Input some comma seperated numbers:")
+
+list = values.split(",")
+
+tuples = tuple(list)
+
+print("list:", list)
+
+print("tuple:", tuples)
+
+
 # In[ ]:
 
 
