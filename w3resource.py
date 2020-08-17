@@ -58,6 +58,15 @@ print("list:", list)
 print("tuple:", tuples)
 
 
+# In[2]:
+
+filename = input("Enter the filename:")
+
+f_extns = filename.split(".")
+
+print("The extension of the file is:"+repr(f_extns[-1]))
+
+
 # In[ ]:
 
 
